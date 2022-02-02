@@ -12,6 +12,7 @@ import {
   Stack,
 } from "@chakra-ui/react";
 import { AiOutlineMenu } from "react-icons/ai";
+import NextLink from "next/link";
 
 const Navbar = () => {
   return (
@@ -102,18 +103,24 @@ const Navbar = () => {
                 {/* <NextLink href="/" passHref>
                                     <MenuItem as={Link}>About</MenuItem>
                                 </NextLink> */}
-                <Link href="#dehaat">
-                  <MenuItem as={Link}>Dehaat</MenuItem>
-                </Link>
-                <Link href="#features">
-                  <MenuItem as={Link}>Features</MenuItem>
-                </Link>
+                <NextLink href="#dehaat">
+                  <MenuItem as={Link} className="hover:text-gray-200">
+                    Dehaat
+                  </MenuItem>
+                </NextLink>
+                <NextLink href="#features">
+                  <MenuItem as={Link} className="hover:text-gray-200">
+                    Features
+                  </MenuItem>
+                </NextLink>
                 {/* <MenuItem>
                   <Link href="#features">Features</Link>
                 </MenuItem> */}
-                <Link href="#contact">
-                  <MenuItem as={Link}>Contact</MenuItem>
-                </Link>
+                <NextLink href="#contact">
+                  <MenuItem as={Link} className="hover:text-gray-200">
+                    Contact
+                  </MenuItem>
+                </NextLink>
                 {/* <NextLink href="/posts" passHref>
                                     <MenuItem as={Link}>Posts</MenuItem>
                                 </NextLink> */}
