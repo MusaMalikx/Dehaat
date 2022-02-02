@@ -51,7 +51,9 @@ export default function Home() {
         </Heading>
       </Box>
       <Box id="contact" pt={14} className="h-screen">
-        Contacts
+        <Heading as="h1" variant="page-title">
+          Contact
+        </Heading>
       </Box>
       <Locator scrollY={scrollY} h={h} />
     </Box>
