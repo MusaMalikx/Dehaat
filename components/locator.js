@@ -15,6 +15,7 @@ const Locator = ({ scrollY, h }) => {
           _hover={{ color: "glassGreen" }}
           onMouseEnter={() => setHov(true)}
           onMouseLeave={() => setHov(false)}
+          onClick={() => setHov(false)}
         >
           {hov && <Icon as={BsArrowUpShort} className="animate-bounce" />}
           <Icon as={GiField} />
