@@ -108,6 +108,9 @@ const Navbar = () => {
                 <Link href="#features">
                   <MenuItem as={Link}>Features</MenuItem>
                 </Link>
+                {/* <MenuItem>
+                  <Link href="#features">Features</Link>
+                </MenuItem> */}
                 <Link href="#contact">
                   <MenuItem as={Link}>Contact</MenuItem>
                 </Link>

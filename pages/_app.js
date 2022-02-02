@@ -4,6 +4,7 @@ import theme from "../lib/theme";
 import Fonts from "../components/fonts"
 import { AnimatePresence } from "framer-motion";
 import '../styles/globals.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const MyApp = ({Component, pageProps, router}) => {
     return (
