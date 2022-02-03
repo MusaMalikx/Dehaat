@@ -27,33 +27,39 @@ export default function Home() {
     <Box className="relative">
       <Box id="dehaat" className="">
         <SlideShow />
-        <Box className="mt-20">
-          <Container
-            maxW="container.sm"
-            borderRadius="lg"
-            bg="whiteAlpha.200"
-            mb={6}
-            p={3}
-            align="center"
-          >
-            <Image
-              src="/images/logo.png"
-              alt="logo"
-              width="1080"
-              height="1080"
-            />
-          </Container>
-        </Box>
+        <Container maxW="container.xl">
+          <Box className="mt-20">
+            <Container
+              maxW="container.sm"
+              borderRadius="lg"
+              bg="whiteAlpha.200"
+              mb={6}
+              p={3}
+              align="center"
+            >
+              <Image
+                src="/images/logo.png"
+                alt="logo"
+                width="1080"
+                height="1080"
+              />
+            </Container>
+          </Box>
+        </Container>
       </Box>
       <Box id="features" pt={14} className="h-screen">
-        <Heading as="h1" variant="page-title">
-          Features
-        </Heading>
+        <Container maxW="container.xl">
+          <Heading as="h1" variant="page-title">
+            Features
+          </Heading>
+        </Container>
       </Box>
       <Box id="contact" pt={14} className="h-screen">
-        <Heading as="h1" variant="page-title">
-          Contact
-        </Heading>
+        <Container maxW="container.xl">
+          <Heading as="h1" variant="page-title">
+            Contact
+          </Heading>
+        </Container>
       </Box>
       <Locator scrollY={scrollY} h={h} />
     </Box>

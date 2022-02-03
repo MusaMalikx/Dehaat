@@ -14,7 +14,7 @@ export const SlideShow = () => {
             backgroundSize: "cover",
           }}
         >
-          <div className="mx-10 pt-24 lg:ml-20 lg:pt-32">
+          {/* <div className="mx-10 pt-24 lg:ml-20 lg:pt-32">
             <p className="text-gray-400 font-sm mb-3">
               Building Technologies for the next Agri-Revolution
             </p>
@@ -32,7 +32,7 @@ export const SlideShow = () => {
               <Suggest name="Farm Intelligence" />
               <Suggest name="Finance" />
             </div>
-          </div>
+          </div> */}
         </div>
       </Carousel.Item>
       <Carousel.Item>
@@ -45,7 +45,7 @@ export const SlideShow = () => {
             backgroundSize: "cover",
           }}
         >
-          <div className="mx-10 pt-24 lg:ml-20 lg:pt-32">
+          {/* <div className="mx-10 pt-24 lg:ml-20 lg:pt-32">
             <p className="text-gray-400 font-sm mb-3"># Yearly Newsletter</p>
             <h1 className="font-sans font-semibold text-4xl lg:text-6xl">
               Breaking records & reaching new heights
@@ -54,7 +54,7 @@ export const SlideShow = () => {
               <Suggest name="Dehaat Digital" />
               <Suggest name="Dehaat Cart" />
             </div>
-          </div>
+          </div> */}
         </div>
       </Carousel.Item>
     </Carousel>

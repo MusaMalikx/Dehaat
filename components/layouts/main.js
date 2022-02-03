@@ -8,12 +8,12 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Musa Malik - Homepage</title>
+        <title>Dehaat</title>
       </Head>
       {/* path={router.asPath} */}
       <Navbar />
 
-      <Container maxW="container.xl">
+      {/* <Container maxW=""> */}
         {/* <Container maxW="container.sm">
           <Image
             src={"/images/logo.png"}
@@ -23,7 +23,7 @@ const Main = ({ children, router }) => {
           />
         </Container> */}
         {children}
-      </Container>
+      {/* </Container> */}
     </Box>
   );
 };

@@ -25,18 +25,22 @@ const Navbar = () => {
         backdropFilter: "blur(10px",
       }}
       // zIndex={1}
-      className=" z-10"
+      className=" z-10 border-b-2"
+      borderColor="glassGreen"
     >
-      <Container
+      <Box
         display="flex"
-        p={2}
-        maxW="container.xl"
-        wrap="wrap"
-        align="center"
-        justify="space-between"
+        p={4}
+        //maxW="full"
+        //wrap="wrap"
+        //align="start"
+        //justify="space-between"
+        //alignItems="flex-start"
+        //justifyContent="space-between"
+        pl={5}
       >
         <Flex align="center" mr={5}>
-          <Heading as="h1" size="xl" letterSpacing={"tighter"}>
+          <Heading as="h1" size="xl" letterSpacing="tighter" mr={5}>
             {/* <Logo /> */}
             Dehaat
           </Heading>
@@ -131,7 +135,7 @@ const Navbar = () => {
             </Menu>
           </Box>
         </Box>
-      </Container>
+      </Box>
     </Box>
   );
 };
