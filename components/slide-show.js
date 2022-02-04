@@ -3,7 +3,7 @@ import Suggest from "./Suggest";
 
 export const SlideShow = () => {
   return (
-    <Carousel fade controls={false} interval={3000}>
+    <Carousel fade controls={false} interval={3000} variant="dark">
       <Carousel.Item>
         <div
           className="h-screen w-full"

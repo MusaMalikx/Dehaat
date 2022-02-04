@@ -10,7 +10,7 @@ const Locator = ({ scrollY, h }) => {
     <Box>
       {scrollY > h / 2 && (
         <Link
-          href="#dehaat"
+          href="#D"
           className="text-5xl fixed bottom-10 right-12 cursor-pointer flex flex-col"
           _hover={{ color: "glassGreen" }}
           onMouseEnter={() => setHov(true)}
