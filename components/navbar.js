@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 import { AiOutlineMenu } from "react-icons/ai";
 import NextLink from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
@@ -40,10 +41,11 @@ const Navbar = () => {
         pl={5}
       >
         <Flex align="center" mr={5}>
-          <Heading as="h1" size="xl" letterSpacing="tighter" mr={5}>
+          {/* <Heading as="h1" size="xl" letterSpacing="tighter" mr={5}> */}
             {/* <Logo /> */}
-            Dehaat
-          </Heading>
+            <Image src="/images/Kisan.png" height={40} width={40} alt="logo" />
+            {/* Dehaat */}
+          {/* </Heading> */}
         </Flex>
         <Stack
           direction={{ base: "column", md: "row" }}

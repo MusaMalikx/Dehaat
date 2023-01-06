@@ -586,7 +586,7 @@ export default function Home() {
                   bg="whiteAlpha.200"
                 />
                 <Select
-                  className="border-2 border-gray-500 mx-2 mb-2 p-3 focus:border-green-600 outline-none text-xs"
+                  className="border-2 border-gray-500 mx-2 focus:border-green-600 outline-none text-xs"
                   bg="whiteAlpha.200"
                   placeholder="Select Equiry Type"
                 >
